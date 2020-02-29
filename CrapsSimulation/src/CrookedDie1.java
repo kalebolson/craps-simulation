@@ -15,5 +15,12 @@ public class CrookedDie1 extends Die
 	{
 		return "A CrookedDie1 always rolling 3, and... "; // + super.toString();
 	}
+	
+	//testing to verify this method cannot overwrite the static method
+	//within the parent class.
+	public static String testStatic() 
+	{
+		return "CrookedDie1.testStatic()";
+	}
 
 }

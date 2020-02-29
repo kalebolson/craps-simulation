@@ -14,7 +14,12 @@ public class Die
 		CrapsGame.println("Die(int) constructor called.");
 		setLastRoll(firstValue);
 	}
-
+	
+	public static String testStatic() 
+	{
+		return "Die.testStatic()";
+	}
+	
 	public int getLastRoll() // getter or accessor method
 	{
 		return this.lastRoll;

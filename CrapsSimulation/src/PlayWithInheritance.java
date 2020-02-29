@@ -90,6 +90,7 @@ public class PlayWithInheritance
 		else if (RUN_EXAMPLE == OVERRIDING_STATIC)
 		{
 			// your [H2-9] code goes here
+			// another comment..
 		}
 
 		StdOut.println();
